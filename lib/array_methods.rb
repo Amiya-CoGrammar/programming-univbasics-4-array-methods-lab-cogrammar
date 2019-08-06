@@ -17,10 +17,13 @@ def using_first(array)
   array.first
 end
 using_first(["JP", "Imraan", "Sobane"])
-def using_last(array)
 
+def using_last(array)
+  array.last
 end
+using_last(["JP", "Imraan", "Sobane"])
 
 def using_size(array)
-
+  array.size
 end
+using_size(["JP", "Imraan", "Sobane"])
