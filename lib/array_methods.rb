@@ -9,13 +9,14 @@ end
 using_sort(["JP", "Imraan", "Sobane"])
 
 def using_reverse(array)
-
+  array.reverse
 end
+using_reverse(["JP", "Imraan", "Sobane"])
 
 def using_first(array)
-
+  array.first
 end
-
+using_first(["JP", "Imraan", "Sobane"])
 def using_last(array)
 
 end
