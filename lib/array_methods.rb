@@ -1,7 +1,7 @@
 def using_include(array, element)
-  array.include?("Manchester United")
+  array.include?(element)
 end
-using_include(["JP", 23, "Manchester United"])
+using_include(["JP", 23, "Manchester United"], 23)
 
 def using_sort(array)
 
