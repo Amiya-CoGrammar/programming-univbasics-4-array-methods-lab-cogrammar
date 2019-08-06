@@ -4,7 +4,7 @@ end
 using_include(["JP", 23, "Manchester United"], 23)
 
 def using_sort(array)
-  array.sort()
+  array.sort
 end
 using_sort(["JP", 23, "Manchester United"])
 
